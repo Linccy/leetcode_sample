@@ -7,7 +7,7 @@ public class JumpFloor {
 	 * @return
 	 */
 	public int JumpFloor(int target) {
-        if(target <=2){
+        if(target <=3){
             return target;
         }
 		int[] arr = new int[target+1];
